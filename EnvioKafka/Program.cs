@@ -18,7 +18,7 @@ namespace EnvioKafka
             if (args.Length < 4)
             {
                 Console.WriteLine(
-                    "Informe ao menos 5 parametros: " +
+                    "Informe ao menos 4 parametros: " +
                     "no primeiro o Host Name do Namespace do Azure Event Hubs (sera assumida a porta 9093), " +
                     "no segundo a string de conexão fornecida pelo Portal do Azure, " +
                     "no terceiro o Topic (Event Hub) que recebera as mensagens, " +
